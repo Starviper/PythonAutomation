@@ -3,7 +3,7 @@
 
 import openpyxl, pprint
 print('Opening workbook...')
-wb = openpyxl.load_workbook('C:/Special/PythonProj/censuspopdata.xlsx')
+wb = openpyxl.load_workbook('C:/Example/censuspopdata.xlsx')
 sheet = wb['Population by Census Tract']
 countyData = {}
 
