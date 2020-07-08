@@ -3,7 +3,7 @@
 
 import openpyxl
 
-wb = openpyxl.load_workbook('C:/Exaple/produceSales.xlsx')
+wb = openpyxl.load_workbook('C:/Example/produceSales.xlsx')
 sheet = wb['Sheet']
 
 # The produce types and prices
